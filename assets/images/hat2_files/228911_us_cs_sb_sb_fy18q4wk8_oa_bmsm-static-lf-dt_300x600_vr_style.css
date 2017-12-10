@@ -1,0 +1,491 @@
+/*-------------------------------------
+    Reset
+---------------------------------------*/
+
+/******Basic settings**********/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img{
+  border: 0px;
+}
+a{
+  text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif; color: #444444;
+}
+.font-preloader{
+  font-family:'Roboto';
+  visibility:hidden;
+  width:0; 
+  height:0;
+}
+#frame_one, #frame_two,#frame_three,#frame_four,#frame_five {
+  width: 100%;
+  height: 100%;
+}
+
+/*-------------------------------------
+  Layout
+---------------------------------------*/
+
+#ad {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#banner {
+  position: absolute;
+  background: #eeeeee;
+  display: block;
+  width: 300px;
+  height: 600px;
+  overflow: hidden;
+  cursor: pointer;
+  visibility: hidden; 
+  border: 1px solid #666666;
+  -webkit-box-sizing: border-box;  
+          box-sizing: border-box;  
+}
+
+#clickTAG {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.ie-fallback{
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+/*-------------------------------------
+  Frame One frame duration: 3.5s
+---------------------------------------*/
+.bg{
+  display: block;
+  width: 300px;
+  height: 600px;
+  top: 0px;
+  left: 0px;
+  background: #D74324;
+  position: absolute;
+}
+.dell-logo-white {
+   top: 25px;
+  right: 105px;
+  position:absolute;
+}
+
+.dell-logo {
+  top: 25px;
+  right: 127px;
+  position:absolute;
+}
+.vendor-logo {
+  bottom:12px;
+  left: 7px;
+  position:absolute;
+}
+
+.frame-1-text-1{
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 300;
+  letter-spacing: 0.11em;
+  color: #fff;
+  text-align:center;
+  top: 213px;
+  width: 100%;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.frame-1-text-2{
+  font-size: 75px;
+  line-height: 76px;
+  color: #ffffff;
+  text-align:center;
+  letter-spacing: -5px;
+  font-weight: 300;
+  top: 233px;
+  left: 1px;
+  width: 100%;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.frame-1-text-2-up1 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase;
+  top: 240px;
+  left: 80px;
+  position: absolute;
+}
+.frame-1-text-2-up {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase;
+  top: 240px;
+  left: 170px;
+  position: absolute;
+}
+.frame-1-text-3{
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  top: 273px;
+  left: 170px;
+  width: 298px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.cta1{
+  position: absolute;
+  color: #D74324;
+  text-align: center;
+  background: #ffffff;
+   bottom: 110px;
+  left: 111px;
+  display: block;
+  z-index: 99;
+  padding: 7px 10px 6px 10px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bolder;
+  vertical-align: middle;
+
+}
+/*@-moz-document url-prefix() {
+	
+  .cta { padding: 6px 10px 7px 10px;}
+}*/
+
+.cta{
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  background: #D74324;
+  bottom: 110px;
+  left: 111px;
+  display: block;
+  z-index: 99;
+  padding: 7px 10px 6px 10px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bolder;
+  vertical-align: middle;
+
+}
+/*@-moz-document url-prefix() {
+  .cta {padding: 6px 10px 7px 10px;}
+}*/
+
+.funding-text{
+  width: 100%;
+  font-size: 12px;
+  line-height: 14px;
+  left:56px;
+  bottom:12px;
+  color: #ffffff;
+  position:absolute;
+
+}
+
+.funding-text sup{
+  font-size: 8px;
+  line-height: 10px;
+}
+
+/*-------------------------------------
+  Frame two  frame duration: 2.3s
+---------------------------------------*/
+
+.main-badge{
+  top:100px;
+  left: 33px;
+  position:absolute;
+}
+
+.product1{
+  top: 225px;
+  left: 40px;
+  position:absolute;
+
+}
+
+.pro-name1 {
+  font-size: 12px;
+  line-height: 14px;
+  text-align:center;
+  top: 380px;
+  width: 100%;
+  color: #444444;
+  position: absolute;
+font-weight: 700;  
+}
+
+/*-------------------------------------
+  Frame Three  frame duration: 2.8s
+---------------------------------------*/
+.frame-3-text-1{
+  width: 100%;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.13em;
+  top: 115px;
+  position:absolute;
+}
+
+.product2{
+  top: 225px;
+  left: 40px;
+  position:absolute;
+
+}
+
+.pro-name2 {
+  font-size: 12px;
+  line-height: 14px;
+  text-align:center;
+  top: 380px;
+  width: 100%;
+  color: #444444;
+  position: absolute;
+font-weight: 700;  
+}
+
+
+/*-------------------------------------
+ Frame Four  frame duration: 3.2s
+---------------------------------------*/
+.product3{
+  top: 175px;
+  left: 90px;
+  position:absolute;
+}
+
+
+.frame-4-text-1{
+  width: 100%;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.13em;
+  top: 115px;
+  position:absolute;
+
+}
+
+
+.frame-4-text{
+  top: 370px;
+  text-align: center;
+  width: 100%;
+  position:absolute;
+}
+
+.frame-4-text1 { 
+  font-size: 11px;
+  color: #444444;
+  display: block;
+}
+.frame-4-text1 span { 
+  color: #D74324;
+  font-weight: bold;
+}
+.frame-4-text2 {
+  font-size: 20px; 
+  color: #D74324;
+  display: block;
+  line-height:13px;
+  font-weight: bold;
+}
+
+.frame-4-text3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #444444;
+  margin-top: 5px;
+  display: block;
+}
+.frame-4-text3 span{
+	font-size: 11px;
+	font-weight: 400;
+}
+
+.frame-4-text4{
+  font-size: 12px;
+  font-weight: 400;
+  color: #444444;
+  margin-bottom:3px;
+  display: block;
+
+}
+
+.price {
+  line-height:15px;
+}
+
+.frame-4-text2 sup {
+  font-size:10px;
+  line-height:12px;
+}
+
+.monitor{
+  font-size: 9px;
+  line-height: 11px;
+  left:56px;
+  bottom:12px;
+  color: #444444;
+  position:absolute;
+
+}
+
+.funding-text2 sup{
+  font-size: 8px;
+  line-height: 10px;
+}
+
+/*-------------------------------------
+  Frame Five  frame duration: 3.2s
+---------------------------------------*/
+.product4{
+  top: 205px;
+  left: 90px;
+  position:absolute;
+}
+.violator{
+  top: 188px;
+  left: 90px;
+  position:absolute;
+
+}
+
+.badge-last{
+  top: 100px;
+  left: 33px;
+  position:absolute;
+}
+
+.pro-name3{
+  top: 400px;
+  width: 100%;
+  font-size: 12px;
+  text-align:center;
+  font-weight: 700;
+  color: #444444;
+  position:absolute;
+}
+
+
+.frame-5-text-1{
+  width: 100%;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  top: 160px;
+  position: absolute;
+}
+
+.funding-text3{
+  font-size: 12px;
+  line-height: 14px;
+  left:56px;
+  bottom:12px;
+  color: #444444;
+  position:absolute;
+}
+
+.funding-text3 sup{
+  font-size: 8px;
+  line-height: 10px;
+}
+
+
+
+/*Roll over*/
+#roll-cta {
+  position: absolute;
+  color: #444;
+  top: 442px;
+  left: 111px;
+  z-index: 99999;
+  width: 80px;
+  height: 15px;
+
+
+}
+#legal {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  background:#fff;
+  top:-1000px;
+  z-index: 999;
+}
+#legal-text {
+  position: absolute;
+  color: #444;
+  width: 295px;
+  height: 600px;
+  font-size: 12px;
+  line-height:20px;
+  padding: 165px 5px;
+
+}
+#rolltext {
+  position: absolute;
+  z-index: 9;
+  top: 442px;
+  left: 111px;
+  font-size: 9px;
+}
+#flex_bg{
+  background: #ff7fff;
+  padding: 8px 10px;
+  top: 0px;
+  left: 86px;
+  position: absolute;
+}
+.temp-text{
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #444444;
+  text-transform: uppercase;
+}
