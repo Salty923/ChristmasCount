@@ -1,0 +1,32 @@
+
+body{
+    background: yellow;
+}
+
+h1{
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 50px;
+    color: red;
+    
+}
+
+.ornament{
+    float: left;
+    margin: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.text{
+    position: relative;
+    top: -90px;
+    left: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ordbox{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
